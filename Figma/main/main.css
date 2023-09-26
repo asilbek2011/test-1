@@ -1,0 +1,148 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-devanagari_latin_latin-ext-regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-devanagari_latin_latin-ext-500.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-devanagari_latin_latin-ext-600.woff2') format('woff2');
+  }
+
+  .header {
+    margin-top: 20px;
+  }
+
+  .container {
+    width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  .header-text {
+    text-decoration: none;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-span {
+    margin-left: -10px;
+    color: #939393;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
+  padding-left: -40px;
+
+}
+
+.nav-list {
+  padding-left: 40px;
+  list-style: none;
+}
+
+.nav-link {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.nav-link-button {
+  text-decoration: none;
+  color: #000000;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px 60px;
+  transition: all 0.5 ease;
+}
+
+.nav-link-button:hover {
+  background-color: red;
+  color: white;
+  text-decoration: underline;
+}
+
+.hero-button {
+  background-color: #263238;
+  color: white;
+  padding: 20px 100px;
+  margin-left: 5px;
+}
+
+.hero {
+  margin-top: 800px;
+}
+
+.hero .container {
+  display: flex;
+}
+
+.hero-info {
+  width: 632px;
+}
+
+.hero-h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  margin-top: -800px;
+  padding-left: -180px;
+}
+
+.hero-text {
+  color: #8F95A5;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 61px;
+  padding-left: -180px;
+}
+
+.hero-img-img {
+  margin-top: -55px;
+  margin-top: -800px;
+}
