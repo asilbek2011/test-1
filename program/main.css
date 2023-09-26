@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-sans-v14-latin_latin-ext-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dm-sans-v14-latin_latin-ext-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dm-sans-v14-latin_latin-ext-700.woff2') format('woff2');
+}
+
+/* rubik-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v28-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rubik-500 - latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v28-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container{
+    width: 1360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img{
+    margin-top: 10px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-li{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: gray;
+    font-family: 'DM Sans';
+}
+
+.nav-link1{
+    text-decoration: none;
+    color: gray;
+    font-family: 'DM Sans';
+}
+
+.nav-link1:hover{
+    color: #F35F2F;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-button{
+    text-decoration: none;
+    padding-top: 5px;
+    background-color: #F35F2F;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+}
+
+.hero-h1{
+    font-family: 'Rubik';
+    width: 200px;
+}
+
+.hero{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.hero-text{
+    font-family: 'Rubik';
+    height: 48px;
+    width: 429px;
+    padding-bottom: 20px;
+}
+
+.hero-info{
+    display: flex;
+    margin-left: -35px;
+}
+
+.hero-li{
+    list-style: none;
+}
+
+.hero-img{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+.hero-link{
+    text-decoration: none;
+    background-color: #F35F2F;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-family: 'Rubik';
+}
+
+.about-ul{
+    display: flex;
+    margin-left: 10px;
+}
+
+.about-li{
+    padding-left: 100px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    padding-right: 100px;
+    font-family: 'DM Sans';
+}
+
+.about-heading{
+    font-family: 'DM Sans';
+}
+
+.about-text-p{
+    font-family: 'DM Sans';
+    width: 200px;
+}
+
+.about-h1{
+    font-family: 'DM Sans';
+    margin-left: 480px;
+}
+
+.about{
+    margin-top: 100px;
+}
+
+.for-ul{
+    display: flex;
+    margin-left: 10px;
+}
+
+.for-li{
+    padding-left: 100px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    padding-right: 100px;
+    font-family: 'DM Sans';
+}
+
+.for-heading{
+    font-family: 'DM Sans';
+}
+
+.for-text-p{
+    font-family: 'DM Sans';
+    width: 200px;
+}
+
+.for-h1{
+    font-family: 'DM Sans';
+    margin-left: 480px;
+}
+
+.for{
+    margin-top: 100px;
+}
